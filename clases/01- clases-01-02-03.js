@@ -1,7 +1,6 @@
-/**
+/* Notas el pie del video
 
  Clase 01  Que es React
-    // notas el pie del video
 
     React cumple su función como biblioteca ya que para utilizar su código se debe importar. También es un Framework aunque las convenciones de cómo debe ser organizado todo no son estrictas.
     En este curso aprenderás las prácticas que la comunidad ha decidido que son buenas.
@@ -17,8 +16,8 @@
 
 
 
-#Clase 02 pre requisitos
-    //notas al pie del video
+# Clase 02 pre requisitos / Notas el pie del video
+   
     
     Estos son los conocimientos que deberás tener antes de comenzar con este curso
 
@@ -29,8 +28,8 @@
 
 
 
-#Clase 03 herramientas que usaremos
-    //notas al pie del video
+# Clase 03 herramientas que usaremos / Notas el pie del video
+
 
     Estas son las herramientas que usaremos en el curso
 
