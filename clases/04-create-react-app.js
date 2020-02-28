@@ -1,6 +1,8 @@
 /*
  * Create-react-app
  
+ //notas propias
+
  Como Instalar createReactApp
     
     para instalar esta aplicacion usaremos npm usando la siguiente linea de comandos: 
@@ -17,12 +19,14 @@
 
     # Navegando la estructura de carpetas creada
         * como primera carpeta encontramos node modules, la cual es bastante descriptiva en su nombre y guarda los modulos de node necesarios para tener nuestro entorno de desarrollo
-        * public > 
+        * public > desntro de esta carpeta encontraremos el archivo index.html , el cual nos da la estructura html, y el contenedor app sobre el cual trabajaremos en nuestra aplicacion 
         * src > en src encontraremos nuestro archivo index.js, este archivo sera la puerta de entrada a nuestra aplicacion en react
 
     con el proyecto corriendo en nustro servidor local podemos observar que todos los cambios efectuados en nuestro proyecto son reflejados
     de forma automatica cada ves que le damos a guardar
 
+
+    
 
 
 
