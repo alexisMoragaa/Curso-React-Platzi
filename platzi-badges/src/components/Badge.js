@@ -14,16 +14,16 @@ class Badge extends React.Component{
                         <img  src={confLogo} alt="Logo de la conferencia"/>
                     </div>
                     <div className="Badge__section-name">
-                        <img className="Badge__avatar" src="http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png" alt="avatar"/>
-                        <h1>Alexis <br/> Moraga</h1>
+                        <img className="Badge__avatar" src={this.props.avatarUrl} alt="avatar"/>
+                        <h1>{this.props.firstName} <br/>{this.props.lastName}</h1>
                     </div>
 
                     <div className="Badge__section-info ">
-                        <h3>Desarrollador Web</h3>
-                        <div>@amoragaa</div>  
+                        <h3>{this.props.jobTitle}</h3>
+                        <div>@{this.props.instagram}</div>  
                     </div>
                     <div className="Badge__footer">
-                        #PlatziConf
+                    #{this.props.hashtag}
                     </div>
 
                 </div>

@@ -9,4 +9,12 @@ const container = document.getElementById('app')
 
 
 
-ReactDom.render(<Badge/>, container)
+ReactDom.render(<Badge 
+                    firstName = "Juan Carlos"
+                    lastName = "Bodoque"
+                    avatarUrl = "http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png"
+                    jobTitle = "Desarrollador Web"
+                    hashtag = "Platzi"
+                    instagram = "amoragaa"
+                />,
+                 container)
