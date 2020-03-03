@@ -1,0 +1,18 @@
+.Badge__card{
+    background: #fff;
+    border-radius: 10px;
+    margin: 1em 0; 
+}
+
+.Badge__content-img{
+    display: flex;
+    align-items: center;
+}
+
+.Badge__p{
+    margin:.5em;
+}
+
+.Badge__img{
+    border-radius: 50%;;
+}
