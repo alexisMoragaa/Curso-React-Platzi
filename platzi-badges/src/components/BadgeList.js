@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/BadgeList.css'
 
+
 class BadgeList extends React.Component{
     render(){
         return(
