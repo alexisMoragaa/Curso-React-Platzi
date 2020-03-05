@@ -17,7 +17,7 @@ class BadgeForm extends React.Component{// creamos la clase de nuestro component
 
     render(){//creamos el metodo render
         return (
-            <div className="">{/*Establecemos un contenedor para nuestro componente*/}
+            <React.Fragment>{/*Establecemos un contenedor para nuestro componente*/}
                 <h1>New Attendant</h1>
                 
                 <form onSubmit={this.handleSubmit}> {/*Creamos un formulario y añadimos el evento on submit para capturar el envio del formulario*/}
@@ -77,7 +77,7 @@ class BadgeForm extends React.Component{// creamos la clase de nuestro component
                     </div>
                     <button className="btn btn-primary" onClick={this.handleClick}>Save</button>
                 </form>
-            </div>
+            </React.Fragment>
         )   
     }
 }
