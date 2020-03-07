@@ -13,6 +13,8 @@ class Navbar extends React.Component{
                         <span className="font-weight-light">Platzi</span>
                         <span className="font-weight-bold">Conf</span>
                     </Link>
+
+                    <Link to="/api">Rick And Morty</Link>
                 </div>
             </div>
 
