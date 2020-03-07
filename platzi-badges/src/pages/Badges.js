@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom'
 import './styles/Badges.css'
 import api from '../api'
 import Loader from '../components/Loader'
+import PageError from '../components/PageError'
 
 class Badges extends React.Component{
 
@@ -41,7 +42,11 @@ class Badges extends React.Component{
 
     render(){
 
-
+        if(this.state.error){
+            return(
+                <PageError error={this.state.error} />
+            )
+        }
         return (
 
             <React.Fragment>
