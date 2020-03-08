@@ -11,7 +11,7 @@ function Home (){
                        <img src={ConfLogo} alt="" className="img__home mt-5"/>
                        <h1 className="titulo textos">PRINT YOUR BADGES</h1>
                        <p className="subtitulo textos">The easies way to manage your conference</p>
-                       <Link to="/badges/new" className="btn btn-success">Start Now</Link>
+                       <Link to="/badges" className="btn btn-success">Start Now</Link>
                 </div>
                 <div className="col-8 p-5 ">
                     <img src={Logo} alt="" className="img__home"/>

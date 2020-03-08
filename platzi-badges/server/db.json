@@ -1,7 +1,5 @@
 {
   "badges": [
-    
-    
     {
       "firstName": "Alexis ",
       "lastName": "Moraga",
@@ -11,8 +9,8 @@
       "id": "qcKgqWT"
     },
     {
-      "firstName": "Bastian",
-      "lastName": "Moraga",
+      "firstName": "Bastian ",
+      "lastName": "Moraga ",
       "email": "bmoraga@gmail.com",
       "jobTitle": "son",
       "twitter": "amoragason",
@@ -26,6 +24,5 @@
       "twitter": "jbodoque",
       "id": "TRX9BG_"
     }
-
   ]
 }

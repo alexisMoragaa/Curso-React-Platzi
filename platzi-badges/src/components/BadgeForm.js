@@ -15,7 +15,7 @@ class BadgeForm extends React.Component {
     return (
       <React.Fragment>
         {/*Establecemos un contenedor para nuestro componente*/}
-        <h1>New Attendant</h1>
+        
 
         {this.props.error && (
               <p className="alert alert-danger mt-2">{this.props.error.message}</p>
