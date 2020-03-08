@@ -17,6 +17,9 @@ class BadgeForm extends React.Component {
         {/*Establecemos un contenedor para nuestro componente*/}
         <h1>New Attendant</h1>
 
+        {this.props.error && (
+              <p className="alert alert-danger mt-2">{this.props.error.message}</p>
+          )}
         <form onSubmit={this.props.onSubmit}>
           {/*Creamos un formulario y añadimos el evento on submit para capturar el envio del formulario*/}
           <div className="form-group">
@@ -73,6 +76,7 @@ class BadgeForm extends React.Component {
           <button className="btn btn-primary" onClick={this.handleClick}>
             Save
           </button>
+
         </form>
       </React.Fragment>
     );

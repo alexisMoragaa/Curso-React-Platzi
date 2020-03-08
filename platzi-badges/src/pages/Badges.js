@@ -7,6 +7,7 @@ import './styles/Badges.css'
 import api from '../api'
 import Loader from '../components/Loader'
 import PageError from '../components/PageError'
+import PageLoading from '../components/PageLoading'
 
 class Badges extends React.Component{
 
@@ -47,6 +48,11 @@ class Badges extends React.Component{
                 <PageError error={this.state.error} />
             )
         }
+
+        if(this.state.loading){
+            return <PageLoading/>
+        }
+        
         return (
 
             <React.Fragment>
@@ -65,9 +71,7 @@ class Badges extends React.Component{
                         <Link to="/Badges/new" className="btn btn-primary">New Badge</Link>
                     </div>
 
-                    {this.state.loading && (
-                        <Loader />
-                    )}
+                
    
                     <div className="Badges__list">
 
