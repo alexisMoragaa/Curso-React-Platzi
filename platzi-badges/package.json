@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "md5": "^2.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "4.3.1",
@@ -14,9 +15,9 @@
   },
   "scripts": {
     "start": "npm-run-all -p client server",
-    "client" :"react-scripts start",
-    "server":"json-server --port 3001 --watch server/db.json",
-    "seed":"node server/seed.js",
+    "client": "react-scripts start",
+    "server": "json-server --port 3001 --watch server/db.json",
+    "seed": "node server/seed.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

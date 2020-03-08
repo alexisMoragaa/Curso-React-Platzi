@@ -5,4 +5,7 @@
   background-repeat: repeat;
   margin-bottom: 1rem;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  max-height: 155px;
 }
