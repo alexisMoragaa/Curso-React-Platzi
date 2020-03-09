@@ -32,7 +32,7 @@ function BadgeDetails(props) {
               lastName={badge.lastName}
               email={badge.email}
               twitter={badge.twitter}
-              jobTitel={badge.jobTitel}
+              jobTitle={badge.jobTitle}
             />
           </div>
           <div className="col-xs-12 col-md-6">
