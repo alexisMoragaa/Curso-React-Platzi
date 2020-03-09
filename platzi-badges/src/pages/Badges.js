@@ -8,6 +8,7 @@ import api from '../api'
 import Loader from '../components/Loader'
 import PageError from '../components/PageError'
 import PageLoading from '../components/PageLoading'
+import MiniLoader from '../components/MiniLoader'
 
 class Badges extends React.Component{
 
@@ -17,15 +18,21 @@ class Badges extends React.Component{
         this.state = {
             loading:true,
             error:null,
-            data:[]//inciializamos el state vacio
+            data:null//inciializamos el state vacio
         }
     }
 
 
     componentDidMount(){
         this.fetchData()
+        this.setIntervalId = setInterval(this.fetchData, 5000); 
+                        
     }
 
+    componentWillUnmount(){
+        clearInterval(this.setIntervalId)
+    }
+        
      fetchData = async () => {
 
         this.setState({loading:true, error: null})
@@ -49,7 +56,7 @@ class Badges extends React.Component{
             )
         }
 
-        if(this.state.loading){
+        if(this.state.loading === true && !this.state.data){
             return <PageLoading/>
         }
         
@@ -83,6 +90,9 @@ class Badges extends React.Component{
                                 <h1>Aun no hay Badges, prueba creando uno</h1>
                         )}
 
+                        {this.state.loading && (
+                            <MiniLoader/>
+                        )}
                     </div>
 
                 </div>
